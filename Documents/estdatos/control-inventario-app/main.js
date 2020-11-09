@@ -26,7 +26,7 @@ class Almacen {
 
     agregarProducto(producto){
         if(this.start == null){
-            this.inicio = producto 
+            this.start = producto 
         } else {
             let pod = this.start
             while(pod.siguiente !== null) {
@@ -36,7 +36,8 @@ class Almacen {
             }
             this.size++
             return Producto.producto
-        }
+            
+    }
     
     insertarProducto(producto, place){
         if(place<0 || this.capacidad.length >= this.size){
