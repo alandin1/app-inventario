@@ -13,7 +13,7 @@ h3 {
     font-size: 22px;
     color: rgb(255,255,255)
 }
-li, p, form, td, th, {
+li, p, form, td, th {
     font-family: 'Questrial', sans-serif;
     font-size: 22px;
     color: rgb(255, 255, 255)
