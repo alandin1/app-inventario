@@ -6,12 +6,17 @@ h1 {
 h2, h3 {
     font-family: 'Questrial', sans-serif;
     font-size: 22px;
-    color: rgb(255, 255, 255)
+    color: rgb(56, 102, 65)
 }
-li, p, form, td, th {
+li, p, form, td, th, {
     font-family: 'Questrial', sans-serif;
     font-size: 22px;
     color: rgb(255, 255, 255)
+}
+input {
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+    color: rgb(56, 102, 65)
 }
 table {
     border-collapse: collapse;
